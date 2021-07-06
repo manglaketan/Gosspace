@@ -1,0 +1,10 @@
+.infomessage {
+	background: #fcf3c9;
+	width: fit-content;
+	padding: 0.3em 1em;
+	border-radius: 0.5em;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+	margin: auto;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,39 @@
+.sidebarinfo h3 {
+	color: #ffe66d;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	margin: 10px 0;
+	font-size: 100%;
+}
+
+.sidebarinfo p {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+}
+
+.sidebarinfo li {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.sidebarinfo ul {
+	list-style: none;
+	list-style-position: outside;
+	list-style-image: url("../assets/online.png");
+	padding-inline-start: 20px;
+}
+
+.sidebarinfo {
+	margin-left: 10px;
+}
+
+/* @media screen and (max-width: 600px) {
+	.sidebarinfo {
+		display: flex;
+		justify-content: space-around;
+	}
+} */

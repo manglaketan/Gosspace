@@ -1,0 +1,45 @@
+.sendbox {
+	display: flex;
+	position: sticky;
+	align-items: center;
+	justify-content: center;
+	padding: 3px;
+	top: 92vh;
+}
+
+.sendbox input {
+	width: 70vw;
+	height: 35px;
+	border: none;
+	border-radius: 8px;
+	background: #fff6c8;
+	font-family: "Lato", sans-serif;
+	font-size: 1.02em;
+	padding-left: 10px;
+	box-shadow: 2px 2px 4px rgb(141, 141, 141);
+}
+
+.sendbox input:focus {
+	outline: none;
+}
+
+.sendbox button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	width: 35px;
+	height: 35px;
+	background: #1a535c;
+	padding: 10px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 8px;
+}
+
+.sendbox button svg {
+	width: 35px;
+	height: 30px;
+}

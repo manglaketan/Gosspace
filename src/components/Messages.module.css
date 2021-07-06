@@ -1,0 +1,7 @@
+.messages {
+	overflow-y: scroll;
+}
+
+.messages ul {
+	list-style-type: none;
+}

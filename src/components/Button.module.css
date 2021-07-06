@@ -1,0 +1,22 @@
+.button {
+	background: #ffe66d;
+	font-family: "Raleway", sans-serif;
+	cursor: pointer;
+	font-weight: 700;
+	border: none;
+	width: fit-content;
+	border-radius: 5px;
+	padding: 1em 1.4em;
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+.button:hover:not(.disabled) {
+	background: #ffdf42;
+}
+
+.disabled {
+	background: rgb(192, 191, 191);
+	cursor: not-allowed;
+	color: rgb(94, 88, 88);
+}

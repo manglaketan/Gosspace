@@ -1,0 +1,53 @@
+.starter {
+	background: #1a535c;
+	display: flex;
+	flex-direction: column;
+	padding: 2em 4em;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.starter__logo {
+	height: 60px;
+}
+
+.starter__form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.starter__form label {
+	font-weight: 500;
+	color: white;
+	margin-top: 10px;
+}
+
+.starter__form input,
+.starter__form select {
+	border: none;
+	height: 2em;
+	border-radius: 6px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+.starter__form option {
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.starter__form input:focus,
+.starter__form select:focus {
+	outline: none;
+	box-shadow: 0 0 5px 2px rgb(194, 194, 194);
+}
+
+.starter__button {
+	align-self: center;
+}
